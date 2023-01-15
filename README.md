@@ -24,4 +24,25 @@ Option round_robin determines the behaviour after the primary connection comes b
 <img src="/assets/diagram.png" alt="diagram">
 </div>
 
+### Shared Subscriptions visualisation using paho.mqtt
+
+Open mosquitto server on your local machine and use the command:
+
+python3 shared_subscription.py
+
+The script creates six subscribers, two of them subscribe on shared topic *$share/group1/test*, other two on *$share/group2/test* and remaining two on test. After that there is a message published on topic *test*.
+
+As subscribers 1 and 2 are in the same share-group only one of them is going to receive the message, the same applies to subscribers 3 and 4.
+All subscribers subscribing to topic *test* will receive the message.
+As a result there are 4 clients that received a message.
+
+This mechanism might be usefull for load balancing MQTT-clients and 'hot topics' that could overload one mqtt client.
+
+
+### Schared subscription
+
+<div align="center">
+<img src="/assets/shared_subscription.png" alt="shared_subscription">
+</div>
+
 
