@@ -1,0 +1,16 @@
+1673810744: mosquitto version 2.0.15 starting
+1673810744: Config loaded from /mosquitto/config/mosquitto.conf.
+1673810744: Opening ipv4 listen socket on port 1885.
+1673810744: Opening ipv6 listen socket on port 1885.
+1673810744: Opening websockets listen socket on port 9003.
+1673810744: mosquitto version 2.0.15 running
+1673810744: New connection from 172.20.0.11:58262 on port 1885.
+1673810744: New bridge connected from 172.20.0.11:58262 as 01f88ceaf1cc.bridge2 (p2, c0, k60, u'admin').
+1673810831: New connection from 172.20.0.1:47230 on port 1885.
+1673810831: New client connected from 172.20.0.1:47230 as mqttx_513954f0 (p2, c1, k60, u'admin').
+1673810891: Client 01f88ceaf1cc.bridge2 closed its connection.
+1673810897: New connection from 172.20.0.10:39444 on port 1885.
+1673810897: New bridge connected from 172.20.0.10:39444 as 96b3d404fc37.bridge1 (p2, c0, k60, u'admin').
+1673812543: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1673812946: mosquitto version 2.0.15 terminating
+1673812946: Saving in-memory database to /mosquitto/data//mosquitto.db.

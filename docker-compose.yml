@@ -1,0 +1,53 @@
+version: '3.9'
+services:
+  broker1:
+    container_name: broker1
+    restart: always
+    image: eclipse-mosquitto
+    volumes:
+      - ./broker1/conf:/mosquitto/config
+      - ./broker1/data:/mosquitto/data
+      - ./broker1/log:/mosquitto/log
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    networks:
+      customnetwork:
+        ipv4_address: 172.20.0.10
+  broker2:
+    container_name: broker2
+    restart: always
+    image: eclipse-mosquitto
+    volumes:
+      - ./broker2/conf:/mosquitto/config
+      - ./broker2/data:/mosquitto/data
+      - ./broker2/log:/mosquitto/log
+    ports:
+      - "1884:1884"
+      - "9002:9002"
+    networks:
+      customnetwork:
+        ipv4_address: 172.20.0.11
+  broker3:
+    container_name: broker3
+    restart: always
+    image: eclipse-mosquitto
+    volumes:
+      - ./broker3/conf:/mosquitto/config
+      - ./broker3/data:/mosquitto/data
+      - ./broker3/log:/mosquitto/log
+    ports:
+      - "1885:1885"
+      - "9003:9003"
+    networks:
+      customnetwork:
+        ipv4_address: 172.20.0.12
+volumes:
+  conf:
+  data:
+  log:
+networks:
+  customnetwork:
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
