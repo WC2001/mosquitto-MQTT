@@ -14,3 +14,19 @@
 1673812543: Saving in-memory database to /mosquitto/data//mosquitto.db.
 1673812946: mosquitto version 2.0.15 terminating
 1673812946: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1673880516: mosquitto version 2.0.15 starting
+1673880516: Config loaded from /mosquitto/config/mosquitto.conf.
+1673880516: Opening ipv4 listen socket on port 1885.
+1673880516: Opening ipv6 listen socket on port 1885.
+1673880516: Opening websockets listen socket on port 9003.
+1673880516: mosquitto version 2.0.15 running
+1673880516: New connection from 172.20.0.11:59100 on port 1885.
+1673880516: New bridge connected from 172.20.0.11:59100 as c7d662d687d1.bridge2 (p2, c0, k60, u'admin').
+1673880523: New connection from 172.20.0.10:35030 on port 1885.
+1673880523: New bridge connected from 172.20.0.10:35030 as ec383144ff77.bridge1 (p2, c0, k60, u'admin').
+1673881706: Client c7d662d687d1.bridge2 has exceeded timeout, disconnecting.
+1673881706: Client ec383144ff77.bridge1 has exceeded timeout, disconnecting.
+1673881712: New connection from 172.20.0.11:52032 on port 1885.
+1673881712: New bridge connected from 172.20.0.11:52032 as c7d662d687d1.bridge2 (p2, c0, k60, u'admin').
+1673881780: mosquitto version 2.0.15 terminating
+1673881780: Saving in-memory database to /mosquitto/data//mosquitto.db.

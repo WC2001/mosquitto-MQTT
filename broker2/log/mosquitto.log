@@ -11,3 +11,17 @@
 1673810827: New client connected from 172.20.0.1:49766 as mqttx_3655591d (p2, c1, k60, u'admin').
 1673810891: mosquitto version 2.0.15 terminating
 1673810891: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1673880516: mosquitto version 2.0.15 starting
+1673880516: Config loaded from /mosquitto/config/mosquitto.conf.
+1673880516: Opening ipv4 listen socket on port 1884.
+1673880516: Opening ipv6 listen socket on port 1884.
+1673880516: Opening websockets listen socket on port 9002.
+1673880516: Connecting bridge bridge2 (172.20.0.12:1885)
+1673880516: mosquitto version 2.0.15 running
+1673880516: Expiring client local.01f88ceaf1cc.bridge2 due to timeout.
+1673881707: Client local.c7d662d687d1.bridge2 closed its connection.
+1673881712: Connecting bridge bridge2 (172.20.0.12:1885)
+1673881712: New connection from 172.20.0.10:39320 on port 1884.
+1673881712: New bridge connected from 172.20.0.10:39320 as ec383144ff77.bridge1 (p2, c0, k60, u'admin').
+1673881780: mosquitto version 2.0.15 terminating
+1673881780: Saving in-memory database to /mosquitto/data//mosquitto.db.
